@@ -1,0 +1,564 @@
+{
+	"info": {
+		"_postman_id": "1eadafaa-ba53-4418-aad1-dc34500be7cd",
+		"name": "API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32346496"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/post/question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "question_id",
+							"value": "1234567",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Get values from an array",
+							"type": "text"
+						},
+						{
+							"key": "is_answered",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "view_count",
+							"value": "2345",
+							"type": "text"
+						},
+						{
+							"key": "answer_count",
+							"value": "56",
+							"type": "text"
+						},
+						{
+							"key": "score",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "last_activity_date",
+							"value": "7895462315",
+							"type": "text"
+						},
+						{
+							"key": "creation_date",
+							"value": "5675674329",
+							"type": "text"
+						},
+						{
+							"key": "content_license",
+							"value": "CC BY-SA 3.0",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://stackoverflow.com/questions/1234567/wxtheapp-problems-undeclared-identifier-using-msvc10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/post/question",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"post",
+						"question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/user/createtable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/user/createtable",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"user",
+						"createtable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/questions/load",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/questions/load",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"questions",
+						"load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/get/questions/46422007",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get/questions/46422007",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get",
+						"questions",
+						"46422007"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/post/question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/post/question",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"post",
+						"question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/patch/question/7632708",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "answer_count",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "score",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "last_activity_date",
+							"value": "7894563122",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/patch/question/7632708",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"patch",
+						"question",
+						"7632708"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/put/question",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "question_id",
+							"value": "1960473",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Get values from array.",
+							"type": "text"
+						},
+						{
+							"key": "is_answered",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "view_count",
+							"value": "8790",
+							"type": "text"
+						},
+						{
+							"key": "answer_count",
+							"value": "56",
+							"type": "text"
+						},
+						{
+							"key": "score",
+							"value": "876",
+							"type": "text"
+						},
+						{
+							"key": "last_activity_date",
+							"value": "1705789675",
+							"type": "text"
+						},
+						{
+							"key": "creation_date",
+							"value": "1261774444",
+							"type": "text"
+						},
+						{
+							"key": "content_license",
+							"value": "CC BY-SA 2.0",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://stackoverflow.com/questions/1960473/how-to-merge-branches-on-github-com-without-doing-pull-request",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/put/question",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"put",
+						"question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/get/questions/limit/5/page/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/get/questions/limit/5/page/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get",
+						"questions",
+						"limit",
+						"5",
+						"page",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/questions/load",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/questions/load",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"questions",
+						"load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/get/questions/46422007",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get/questions/46422007",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get",
+						"questions",
+						"46422007"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/put/question",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "question_id",
+							"value": "7632708",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Array",
+							"type": "text"
+						},
+						{
+							"key": "is_answered",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "view_count",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "answer_count",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "score",
+							"value": "-23",
+							"type": "text"
+						},
+						{
+							"key": "last_activity_date",
+							"value": "1705729950",
+							"type": "text"
+						},
+						{
+							"key": "creation_date",
+							"value": "1317630984",
+							"type": "text"
+						},
+						{
+							"key": "content_license",
+							"value": "CC BY-SA 4.0",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://stackoverflow.com/questions/7632708/wxtheapp-problems-undeclared-identifier-using-msvc10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/put/question",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"put",
+						"question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/patch/question/7632708",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "score",
+							"value": "-1000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/patch/question/7632708",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"patch",
+						"question",
+						"7632708"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/delete/question/7632708",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/delete/question/7632708",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"delete",
+						"question",
+						"7632708"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
